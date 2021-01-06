@@ -31,7 +31,7 @@ h2{
     margin-left: 2%;
 }
 .half-width img{
-    width: 75%;
+    width: 80%;
 }
 .button{
     text-decoration: none;
@@ -43,6 +43,12 @@ h2{
 }
 #minimize{
     width: 70%;
+}
+.text-color{
+    color:rgb(62, 62, 62);
+}
+.color-change{
+    color: rgb(108, 108, 108);
 }
 .top{
     height: 500px;
@@ -107,5 +113,32 @@ h2{
     position: absolute;
     bottom: 43%;
     left: 66%;
+}
+.education{
+    height: 500px;
+}
+.another{
+    box-shadow: 10px 20px 40px gray;
+    border-radius: 5px;
+    height: 40%;
+    padding-left: 109px;
+    padding-top: 100px;
+}
+.same-width{
+    width: 35%;
+    float: left;
+    padding: 40px;
+    margin-top: 10%;
+    margin-left: 6%;
+}
+#red{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,red,green);
+    border-image-slice: 1;
+}
+#green{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,green,yellow);
+    border-image-slice: 1;
 }
 
